@@ -9,12 +9,10 @@ html{
   scroll-behavior: smooth;
 }
 header{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: rgb(194, 118, 89);
-
+  background-image: url(/images/heading-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 15px;
 }
 nav{
   display: flex;
@@ -40,4 +38,28 @@ header nav ul li a{
   color: black;
   font-weight: 700;
   text-transform: capitalize;
+}
+#home{
+  background-image: url("/images/facts-bg.jpg");
+}
+#home .container{
+  position: relative;
+}
+#home .container .video{
+  width: 500px;
+  position: absolute;
+  right: 20%;
+  top: 80px;
+}
+#home .container h2{
+  position: absolute;
+  right: 35%;
+  font-size: 2rem;
+}
+#home .container p{
+  position: absolute;
+  top: 350px;
+  right: 22%;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
